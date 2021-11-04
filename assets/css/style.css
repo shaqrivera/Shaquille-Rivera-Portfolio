@@ -2,6 +2,10 @@
     background-color: aqua;
     overflow: hidden;
 }
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
 
 #nameplate{
     text-align: center;
