@@ -3,16 +3,24 @@
     --gold-crayola: #DEBA6F;
     --solid-pink: #823038;
     --xiketic: #1E000E;
+    --white: #fff;
+}
+
+body{
+    background-color: var(--gold-crayola);
 }
 
 .navbar{
     background-color: var(--solid-pink);
     overflow: hidden;
-    color: white;
+    color: var(--white);
+}
+.navbar a{
+    color: var(--white);
 }
 .navbar a:hover {
     background-color: var(--pale-spring-bud);
-    color: black;
+    color: var(--xiketic);
   }
 
 #nameplate{
