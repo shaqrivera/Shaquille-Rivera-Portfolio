@@ -1,9 +1,17 @@
+:root{
+    --pale-spring-bud: #F4F7BE;
+    --gold-crayola: #DEBA6F;
+    --solid-pink: #823038;
+    --xiketic: #1E000E;
+}
+
 .navbar{
-    background-color: aqua;
+    background-color: var(--solid-pink);
     overflow: hidden;
+    color: white;
 }
 .navbar a:hover {
-    background-color: #ddd;
+    background-color: var(--pale-spring-bud);
     color: black;
   }
 
