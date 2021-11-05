@@ -79,3 +79,11 @@ body{
 .centered-text{
       text-align: center;
   }
+  @media screen and (min-width: 992px) {
+    .flex {
+      flex-direction: row;  
+      flex-basis: 25%;
+      flex-wrap: wrap;
+      flex: 0 0 400px;
+      align-items: center;
+    }
