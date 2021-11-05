@@ -45,6 +45,7 @@ body{
   align-items: center;
 }
 
+
 .card {
     position: relative;
     color: black;
@@ -75,6 +76,7 @@ body{
       flex-direction: column;
       flex-basis: 100%;
       align-items: center;
+      margin: 20px;
   }
 .centered-text{
       text-align: center;
@@ -93,6 +95,9 @@ body{
 .little-item{
     flex: 1 0 50%;
 }
+.float-left{
+    float: left;
+}
 }
 @media screen and (min-width: 992px) {
     .flex {
@@ -106,5 +111,8 @@ body{
 
 .little-item{
     flex: 1 0 33%;
+}
+.float-left{
+    float: left;
 }
 }
