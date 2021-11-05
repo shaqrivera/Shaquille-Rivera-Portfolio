@@ -59,13 +59,6 @@ body{
     padding: 2px;
     border-radius: 8px;
 }
-.big-item{
-    flex: 2 0 100%;
-}
-
-.little-item{
-    flex: 1 0 33%;
-}
 
 .bottom-left {
     position: absolute;
@@ -86,10 +79,32 @@ body{
 .centered-text{
       text-align: center;
   }
-  @media screen and (min-width: 992px) {
+
+@media screen and (min-width: 768px) {
     .flex {
       flex-direction: row;
       flex-wrap: wrap;
       justify-content: center;
     }
+.big-item{
+    flex: 1 0 50%;
+}
+
+.little-item{
+    flex: 1 0 50%;
+}
+}
+@media screen and (min-width: 992px) {
+    .flex {
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+.big-item{
+    flex: 2 0 100%;
+}
+
+.little-item{
+    flex: 1 0 33%;
+}
 }
