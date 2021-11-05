@@ -59,6 +59,13 @@ body{
     padding: 2px;
     border-radius: 8px;
 }
+.big-item{
+    flex: 2 0 100%;
+}
+
+.little-item{
+    flex: 1 0 33%;
+}
 
 .bottom-left {
     position: absolute;
@@ -81,10 +88,8 @@ body{
   }
   @media screen and (min-width: 992px) {
     .flex {
-      flex-direction: row;  
-      flex-basis: 25%;
+      flex-direction: row;
       flex-wrap: wrap;
-      flex: 0 0 400px;
-      align-items: center;
+      justify-content: center;
     }
-  }
+}
