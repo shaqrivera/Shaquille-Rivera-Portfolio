@@ -115,7 +115,7 @@ body{
 }
 .sidebar{
     height: 75%;
-    line height: 1;
+    line-height: 1;
 }
 .work-sidebar{
     height: 300px;
