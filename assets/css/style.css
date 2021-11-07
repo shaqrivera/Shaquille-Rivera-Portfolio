@@ -8,6 +8,7 @@
 
 body{
     background-color: var(--gold-crayola);
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
 }
 
 .navbar{
