@@ -83,24 +83,46 @@ body{
   }
 
 @media screen and (min-width: 768px) {
-.flex {
-      flex-direction: row;
-      flex-wrap: wrap;
-      justify-content: center;
-    }
-.big-item{
-    flex: 1 0 50%;
-}
-
-.little-item{
-    flex: 1 0 50%;
-}
 .float-left{
     float: left;
     height: 40px;
     width: 100px;
     border-right: 5px solid var(--xiketic);
+    margin-right: 10px;
 }
+#about-me{
+    height: 200px;
+}
+.sidebar{
+    height: 75%;
+}
+.work-sidebar{
+    height: 300px;
+}
+.flex {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;   
+    }  
+.big-item{
+    flex: 2 0 100%;
+}
+
+.little-item{
+    flex: 1 0 50%;
+}
+#Contact-Me{
+    height: 200px;
+}
+.contact-links{
+    height: 200px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+
+    
+}
+
 }
 @media screen and (min-width: 992px) {
 .big-item{
