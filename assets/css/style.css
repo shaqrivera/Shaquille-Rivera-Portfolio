@@ -5,6 +5,9 @@
     --xiketic: #1E000E;
     --white: #fff;
 }
+h2{
+    font-size: 30px;
+}
 header a{
     font-size: 20px;
     font-weight: bold;
@@ -13,6 +16,8 @@ header p{
     font-size: 30px;
     font-weight: bold;
 }
+
+
 
 body{
     background-color: var(--gold-crayola);
@@ -52,7 +57,14 @@ body{
   flex-basis: 100%;
   align-items: center;
 }
-
+.sidebar{
+    text-decoration: underline;
+    line-height: 2;
+}
+.work-sidebar{
+    text-decoration: underline;
+    line-height: 2;
+}
 
 .card {
     position: relative;
@@ -96,15 +108,18 @@ body{
     width: 100px;
     border-right: 5px solid var(--xiketic);
     margin-right: 10px;
+    padding: 15px;
 }
 #about-me{
     height: 200px;
 }
 .sidebar{
     height: 75%;
+    line height: 1;
 }
 .work-sidebar{
     height: 300px;
+    line-height: 1;
 }
 .flex {
     flex-direction: row;
