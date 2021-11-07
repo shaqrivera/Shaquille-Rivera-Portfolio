@@ -70,13 +70,13 @@ body{
 
 .bottom-left {
     position: absolute;
-    bottom: 8px;
-    left: 16px;
+    bottom: 16px;
+    left: 12px;
   }
 .bottom-right {
     position: absolute;
-    bottom: 8px;
-    right: 16px;
+    bottom: 16px;
+    right: 12px;
   }
 .flex {
       display:flex;
@@ -125,9 +125,18 @@ body{
     height: 200px;
     display: flex;
     flex-flow: column nowrap;
-    justify-content: space-around;
-
-    
+    justify-content: space-around;  
+}
+#Resume{
+    height: 200px;
+    margin: 20px 0;
+}
+#Resume a{
+    display: flex;
+    height: 200px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 }
