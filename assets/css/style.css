@@ -71,6 +71,9 @@ body{
     position: relative;
     color: black;
   }
+.card img{
+    width: 100%;
+}
 
 .card div a{
     background-color: var(--solid-pink);

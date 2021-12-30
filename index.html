@@ -6,28 +6,32 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Shaquille Rivera Portfolio</title>  
   <link rel="stylesheet" href="assets/css/reset.css">
-  <link rel="stylesheet" href="assets\css\style.css">
-  <link rel="shortcut icon" type="image/ico" href="assets\images\favicon.ico"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/newStyle.css">
+  <link rel="shortcut icon" type="image/ico" href="assets/images/favicon.ico"/>
 </head>
 
 <body>
   <header>
+    <div id="nameplate">
+    <p>Shaquille Rivera</p>
+    <p class="subscript">Full-Stack Developer</p>
+    </div>
       <nav class="navbar">
-        <p id="nameplate">Shaquille Rivera</p>
         <a class="right" href="#About-Me">About Me</a>        
         <a class="right" href="#My-Work">My Work</a>        
         <a class="right" href="#Contact-Me">Contact Me</a>
-        <a class="right" href="#Resume">Resume</a>        
+        <a class="right" href="#Resume">Resume</a>       
       </nav>
   </header>
-  <aside>
-      <div id="portrait">
-        <img src="assets\images\Shaq Headshot (2).jpg" alt="Shaquille Rivera Picture" height="300">
-      </div>  
-  </aside>
   <main>
-      <div class="centered-text" id="about-me">
-        <h2 class="float-left centered-text sidebar" id="About-Me">About Me</h2>
+      <div class="centered-text" id="About-Me">
+        <div id="portrait">
+          <img src="assets/images/Shaq Headshot (2).jpg" alt="Shaquille Rivera Picture">
+        </div>
+        <h2 class="float-left centered-text sidebar">About Me</h2>
           <p>
               I grew up in Marietta, GA the majority of my
               childhood. Both of my parents are 20+ year US Army veterans.
@@ -35,62 +39,44 @@
               and a Senior Project Manager, which began my interest in coding and developing. I graduated from Marietta High 
               School and shortly after spent the next 6 months living and working
               abroad in a hotel in Germany. This started my career in the service
-              industry, where I have worked for the past 5 years. While I am currently
-              a bartender in my main line of work, I am also an aspiring
-              real estate investor.
+              industry, where I have worked for the past 5 years. A few of my interests outside of coding are real estate investing, bartending, and making music.
           </p>
       </div>
-    <div>
-      <h2 id="My-Work" class="centered-text float-left work-sidebar">My Work</h2>
-      <div class="flex"> 
+    <div id="My-Work">
+      <h2>My Work</h2>
+      <div id="workCards"> 
           <div class="card big-item">
-              <a href="#"><img src="assets\images\Portolio screenshot.png" alt="Cute Dog" style="width: 100%;max-height: 100%;border:10px solid #1E000E;"></a>
-              <div class="bottom-left">
-                <a href="https://github.com/shaqrivera/Shaquille-Rivera-Portfolio" target="_blank">
+            <h2>Feed Me Food Finder</h2>
+            <a href="https://jesshaff.github.io/feed-me-food-finder-project-1/"><img src="./assets/images/feed-me-food-finder-landing-page.png" alt="feed me food finder screenshot"></a> 
+                <div class="project-links">
+                    <a href="https://github.com/jesshaff/feed-me-food-finder-project-1">
+                        Repository
+                    </a>
+                    <a href="https://jesshaff.github.io/feed-me-food-finder-project-1/">
+                        Live Deployment
+                    </a>
+                  </div>  
+          </div>
+          <div class="card little-item">
+            <h2>Code Challenge Quiz</h2>    
+            <a href="https://shaqrivera.github.io/code-challenge/"><img src="./assets/images/Code-Challenge.png" alt="Code challenge screenshot"></a>
+              <div class="project-links">
+                <a href="https://github.com/shaqrivera/code-challenge">
                     Repository
                 </a>
-              </div>  
-              <div class="bottom-right">
-                <a href="#">
+                <a href="https://shaqrivera.github.io/code-challenge/">
                     Live Deployment
                 </a>
               </div>  
           </div>
           <div class="card little-item">
-            <a href="#"><img src="https://media-cldnry.s-nbcnews.com/image/upload/newscms/2020_28/1587661/dogs-age-years-kb-inline-200707.jpg" style="width: 100%;max-height: 100%" alt="5 dogs"></a> 
-                <div class="bottom-left">
-                    <a href="#">
-                        Repository
-                    </a>
-                  </div>  
-                  <div class="bottom-right">
-                    <a href="#">
-                        Live Deployment
-                    </a>
-                  </div>  
-          </div>
-          <div class="card little-item">    
-            <a href="#"><img src="https://www.gannett-cdn.com/media/2021/06/03/USATODAY/usatsports/imageForEntry18-8on.jpg?width=2560" alt="Winking Dog" style="width: 100%;max-height: 100%"></a>
-              <div class="bottom-left">
-                <a href="#">
+            <h2>Weather Dashboard</h2>   
+            <a href="https://shaqrivera.github.io/Weather-Dashboard/"><img src="./assets/images/weather-dashboard.png" alt="Weather dashboard screenshot"></a>
+              <div class="project-links">
+                <a href="https://github.com/shaqrivera/Weather-Dashboard">
                     Repository
                 </a>
-              </div>  
-              <div class="bottom-right">
-                <a href="#">
-                    Live Deployment
-                </a>
-              </div>  
-          </div>
-          <div class="card little-item">    
-            <a href="#"><img src="https://ggsc.s3.amazonaws.com/images/uploads/The_Science-Backed_Benefits_of_Being_a_Dog_Owner.jpg" alt="Smiling Dog" style="width: 100%;max-height: 100%"></a>
-              <div class="bottom-left">
-                <a href="#">
-                    Repository
-                </a>
-              </div>  
-              <div class="bottom-right">
-                <a href="#">
+                <a href="https://shaqrivera.github.io/Weather-Dashboard/">
                     Live Deployment
                 </a>
               </div>  
