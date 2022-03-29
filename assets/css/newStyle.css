@@ -34,11 +34,14 @@ body{
     font-size: 30px;
 }
 .navbar {
+    position: fixed;
+    top: 0;
     font-size: 30px;
     display: flex;
     justify-content: space-around;
     flex-flow: nowrap;
     padding-bottom: 40vmax;
+    
 }
 h2{
     font-size: 40px;
@@ -72,6 +75,9 @@ h2{
 }
 .card{
     padding: 20px;
+}
+#portait{
+    width: 100%;
 }
 #workCards img{
     width: 80%

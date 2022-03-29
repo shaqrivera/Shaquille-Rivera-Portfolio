@@ -9,28 +9,37 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="assets/css/newStyle.css">
-  <link rel="shortcut icon" type="image/ico" href="assets/images/favicon.ico"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="assets/css/mobile-first.css">
+<link rel="shortcut icon" type="image/ico" href="assets/images/favicon.ico"/>
 </head>
 
 <body>
   <header>
-    <div id="nameplate">
-    <p>Shaquille Rivera</p>
-    <p class="subscript">Full-Stack Developer</p>
+    
+    <div class="topnav" id="myTopnav">
+      <a href="#nameplate" class="active">Home</a>
+      <a href="#aboutMe">About Me</a>
+      <a href="#myWork">My Work</a>
+      <a href="#contactMe">Contact Me</a>
+      <a href="#resume">My Resume</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
     </div>
-      <nav class="navbar">
-        <a href="#About-Me">About Me</a>        
-        <a href="#My-Work">My Work</a>        
-        <a href="#Contact-Me">Contact Me</a>
-        <a href="#Resume">Resume</a>       
-      </nav>
   </header>
   <main>
-      <div id="About-Me">
+    <div id="nameplate">
+      <p>Shaquille Rivera</p>
+      <p class="subscript">Full Stack Developer</p>
+      <img id="chip" src="./assets/images/chip-1710300.svg" alt="microchip" />
+      <img id="network" src="./assets/images/network-7024978.svg" alt="network spiral" />
+    </div>
+      <div id="aboutMe">
         <div id="portrait">
           <img src="assets/images/Shaq Headshot (2).jpg" alt="Shaquille Rivera Picture">
         </div>
+        <div id="aboutText">
         <h2>About Me</h2>
           <p>
               I grew up in Marietta, GA the majority of my
@@ -41,61 +50,64 @@
               abroad in a hotel in Germany. This started my career in the service
               industry, where I have worked for the past 5 years. A few of my interests outside of coding are real estate investing, bartending, and making music.
           </p>
+        </div>
       </div>
-    <div id="My-Work">
+    <div id="myWork">
       <h2>My Work</h2>
       <div id="workCards"> 
           <div class="card big-item">
             <h2>Feed Me Food Finder</h2>
             <a href="https://jesshaff.github.io/feed-me-food-finder-project-1/"><img src="./assets/images/feed-me-food-finder-landing-page.png" alt="feed me food finder screenshot"></a> 
-                <div class="project-links">
-                    <a href="https://github.com/jesshaff/feed-me-food-finder-project-1">
+                
+                    <a class="repoLink" href="https://github.com/jesshaff/feed-me-food-finder-project-1">
                         Repository
                     </a>
-                    <a href="https://jesshaff.github.io/feed-me-food-finder-project-1/">
+                    <a class="liveLink" href="https://jesshaff.github.io/feed-me-food-finder-project-1/">
                         Live Deployment
                     </a>
-                  </div>  
           </div>
           <div class="card little-item">
             <h2>Code Challenge Quiz</h2>    
             <a href="https://shaqrivera.github.io/code-challenge/"><img src="./assets/images/Code-Challenge.png" alt="Code challenge screenshot"></a>
-              <div class="project-links">
-                <a href="https://github.com/shaqrivera/code-challenge">
+              
+            
+                <a class="repoLink" href="https://github.com/shaqrivera/code-challenge">
                     Repository
                 </a>
-                <a href="https://shaqrivera.github.io/code-challenge/">
+                <a class="liveLink" href="https://shaqrivera.github.io/code-challenge/">
                     Live Deployment
                 </a>
-              </div>  
+              
+                 
           </div>
           <div class="card little-item">
             <h2>Weather Dashboard</h2>   
             <a href="https://shaqrivera.github.io/Weather-Dashboard/"><img src="./assets/images/weather-dashboard.png" alt="Weather dashboard screenshot"></a>
-              <div class="project-links">
-                <a href="https://github.com/shaqrivera/Weather-Dashboard">
+              
+                <a class="repoLink" href="https://github.com/shaqrivera/Weather-Dashboard">
                     Repository
                 </a>
-                <a href="https://shaqrivera.github.io/Weather-Dashboard/">
+                <a class="liveLink" href="https://shaqrivera.github.io/Weather-Dashboard/">
                     Live Deployment
                 </a>
-              </div>  
+              
               </div>  
           </div>
       </div>
     </div>
-      <div id="Contact-Me">
+      <div id="contactMe">
           <h2>Contact Me</h2>
-        <div class="contact-links">
-          <p>Email | <a href="mailto: shaq.rivera@gmail.com">Shaq.Rivera@gmail.com</a></p>
-          <p>LinkedIn | <a href="https://www.linkedin.com/in/shaquille-rivera-b18b11150/">https://www.linkedin.com/in/shaquille-rivera-b18b11150/</a></p>
-          <p>Github | <a href="https://github.com/shaqrivera">https://github.com/shaqrivera</a></p>
+        <div class="contactLinks">
+          <h2>Email | <a href="mailto: shaq.rivera@gmail.com">Shaq.Rivera@gmail.com</a></h2>
+          <h2>LinkedIn | <a href="https://www.linkedin.com/in/shaquille-rivera-b18b11150/">https://www.linkedin.com/in/shaquille-rivera-b18b11150/</a></h2>
+          <h2>Github | <a href="https://github.com/shaqrivera">https://github.com/shaqrivera</a></h2>
         </div>
       </div>
-      <div id="Resume">
+      <div id="resume">
           <h2>My Resume</h2>
-          <a href="#">Click here to see my resume.</a>
+          <a href="https://docs.google.com/document/d/12qly1sPTGZ7KbXJPoHDUbanoOA6cijt2o7g4qfoueBE/edit?usp=sharing">Click here to see my resume</a>
       </div>
   </main>
+<script src="./assets/js/index.js"></script>
 </body>
 </html>

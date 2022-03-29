@@ -1,0 +1,217 @@
+p {
+  font-size: 22px
+}
+
+a{
+  font-size: 22px;
+}
+
+h1{
+  font-size: 50px;
+}
+
+h2{
+  font-size: 40px;
+}
+
+body{
+  text-align: center;
+}
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: black;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 22px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add an active class to highlight the current page */
+  .topnav a.active {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Hide the link that should open and close the topnav on small screens */
+  .topnav .icon {
+    display: none;
+  } 
+
+  #nameplate{
+    height: 600px;
+    width: 100%;
+    background: rgb(253,29,29);
+    background: linear-gradient(90deg, rgba(253,29,29,1) 0%, rgba(252,176,69,1) 67%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+   
+  }
+
+  #nameplate p{
+    font-size: 60px;
+  }
+
+  #nameplate #network{
+    position: absolute;
+    height: 30%;
+    right: -15px;
+    bottom: 0;
+  }
+
+  #nameplate #chip{
+    position: absolute;
+    height: 40%;
+    bottom: 0;
+    left: -40px;
+  }
+
+  #aboutMe{
+    background: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    padding: 20px
+  }
+
+  #aboutMe #portrait img{
+    height: 350px;
+    border-radius: 10%;
+    padding-bottom: 20px;
+  }
+
+  #myWork{
+    background: rgb(253,29,29);
+    background: linear-gradient(90deg, rgba(253,29,29,1) 0%, rgba(252,176,69,1) 67%);
+  }
+
+  #workCards{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #workCards img{
+    height: 300px;
+    border-radius: 5%
+  }
+
+  .card{
+    position: relative;
+    background-color: black;
+    color: white;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 10%;
+  }
+
+  .card .repoLink, .card .liveLink{
+    background-color: black;
+    padding: 6px;
+    color: white;
+    text-decoration: none;
+    border-radius: 20%;
+  }
+
+  .card .repoLink:hover, .card .liveLink:hover{
+    background-color: white;
+    color: black;
+  }
+
+  .card .repoLink{
+    position: absolute;
+    bottom: 40px;
+    left: 20px;
+  }
+
+  .card .liveLink{
+    position: absolute;
+    bottom: 40px;
+    right: 20px;
+  }
+
+  #contactMe{
+    background: black;
+    color: white;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #contactMe .contactLinks h2{
+    margin: 60px 0; 
+  }
+
+  .contactLinks a{
+    font-size: 28px;
+    color: white;
+  }
+
+  #resume{
+    height: 400px;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #resume a{
+    margin: 50px;
+    font-size: 40px;
+    color: white;
+  }
+
+ /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+ @media screen and (max-width: 600px) {
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+      float: right;
+      display: block;
+    }
+  }
+  
+  /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+  @media screen and (max-width: 600px) {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive a.icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .topnav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+  } 
+
+  @media screen and (max-width: 700px) {
+    #workCards img{
+      width: 100%;
+      height: auto;
+    }
+  }
