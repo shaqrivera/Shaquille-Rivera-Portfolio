@@ -115,8 +115,16 @@ body{
     height: 300px;
     border-radius: 5%
   }
+  
+  .cardText{
+    width: 300px;
+  }
 
   .card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     position: relative;
     background-color: black;
     color: white;
@@ -124,6 +132,8 @@ body{
     padding: 15px;
     border-radius: 10%;
   }
+
+  
 
   .card .repoLink, .card .liveLink{
     background-color: black;
